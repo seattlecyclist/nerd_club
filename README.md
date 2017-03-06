@@ -1,5 +1,7 @@
-# Nerd Club
+# Nerd Club 
 Just a playground for myself and friends to play around programming
+ [![nerd club](./nerd_club.jpg)]
+
 
 ## Instructions
 * Clone repo
