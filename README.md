@@ -1,4 +1,4 @@
-# nerd_club
+# Nerd Club
 Just a playground for myself and friends to play around programming
 
 ## Instructions
