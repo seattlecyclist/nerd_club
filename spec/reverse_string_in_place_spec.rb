@@ -5,11 +5,11 @@ require 'spec_helper'
 describe 'reverse a string in place' do
 
   it 'should reverse the string' do
-    expect(reverse("dog")).to be("god")
+    expect(reverse("dog")).to eq("god")
   end
 
   it 'should reverse the sentence' do
-    expect(reverse("a wise word")).to be("drow esiw a")
+    expect(reverse("a wise word")).to eq("drow esiw a")
   end
 
 end
