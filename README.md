@@ -10,3 +10,4 @@ Just a playground for myself and friends to play around programming
 ## Challenges
 * [Find the Second Largest Item in a BST](second-largest-item-in-bst.md)
 * [Build a Balanced BST](build_balanced_bst.md)
+* [Reverse a String in Place](reverse-string-in-place.md)
