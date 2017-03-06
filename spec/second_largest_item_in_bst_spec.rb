@@ -54,12 +54,12 @@ describe 'within a binary search tree' do
 
     # start by finding the largest item
     it 'should find the LARGEST item' do
-      expect(@root.find_largest).to be @node7
+      expect(@root.find_largest).to be @node12
     end
 
     # start by finding the largest item
     it 'should find the SECOND largest item' do
-      expect(@root.find_second_largest).to be @node8
+      expect(@root.find_second_largest).to be @nod11
     end
 
   end
