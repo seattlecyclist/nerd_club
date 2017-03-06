@@ -15,5 +15,17 @@ describe 'reverse a string in place' do
 end
 
 def reverse(word)
-  #implement
+  left = 0
+  right = word.length - 1
+
+  # NOTE: you can not just loop through the chars of the word and swap in place
+  # as this will effect the array your looping through
+  while left < right
+    word[left], word[right] = word[right], word[left]
+
+    left += 1
+    right -= 1
+  end
+
+  word
 end
