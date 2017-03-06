@@ -37,12 +37,19 @@ describe 'within a binary search tree' do
       #    / \
       #   4   7
       #      / \
-      #     8   9
+      #     8   12
+      #        /
+      #       10
+      #       / \
+      #      9  11
       @root = BinaryTreeNode.new(5)
       @node4 = @root.insert_left(4)
       @node7 = @root.insert_right(7)
       @node8 = @node7.insert_left(8)
-      @node9 = @node7.insert_right(9)
+      @node12 = @node7.insert_right(12)
+      @node10 = @node12.insert_left(10)
+      @node9 = @node10.insert_left(9)
+      @node11 = @node10.insert_right(11)
     end
 
     # start by finding the largest item
