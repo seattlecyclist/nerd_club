@@ -1,6 +1,6 @@
 # Nerd Club 
+![nerd club](./nerd_club.jpg)
 Just a playground for myself and friends to play around programming
- [![nerd club](./nerd_club.jpg)]
 
 
 ## Instructions
