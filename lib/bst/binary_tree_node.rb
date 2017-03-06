@@ -8,6 +8,12 @@ class BinaryTreeNode
     @right = right
   end
 
+  class << self
+    def build_tree(array)
+      #implement
+    end
+  end
+
   def insert_left(value)
     @left = BinaryTreeNode.new(value)
   end
@@ -17,10 +23,10 @@ class BinaryTreeNode
   end
 
   def find_second_largest(node = self)
-
+    #implement
   end
 
   def find_largest(node = self)
-
+    #implement
   end
 end
