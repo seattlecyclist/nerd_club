@@ -10,7 +10,13 @@ class BinaryTreeNode
 
   class << self
     def build_tree(array)
-      #implement
+      return if array.empty?
+
+      middle = array.length/2
+      node = BinaryTreeNode.new(array[middle])
+      node.left = BinaryTreeNode.build_tree(array[0...middle])
+      node.right = BinaryTreeNode.build_tree(array[middle + 1..- 1])
+      node
     end
   end
 
