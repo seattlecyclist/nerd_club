@@ -35,31 +35,31 @@ describe 'within a binary search tree' do
       # Create a simple tree. Balance does not matter for this question
       #     5
       #    / \
-      #   4   7
+      #   4   9
       #      / \
-      #     8   12
+      #     8   13
       #        /
-      #       10
+      #       11
       #       / \
-      #      9  11
+      #      10  12
       @root = BinaryTreeNode.new(5)
       @node4 = @root.insert_left(4)
-      @node7 = @root.insert_right(7)
-      @node8 = @node7.insert_left(8)
-      @node12 = @node7.insert_right(12)
-      @node10 = @node12.insert_left(10)
-      @node9 = @node10.insert_left(9)
-      @node11 = @node10.insert_right(11)
+      @node9 = @root.insert_right(9)
+      @node8 = @node9.insert_left(8)
+      @node13 = @node9.insert_right(13)
+      @node11 = @node13.insert_left(11)
+      @node10 = @node11.insert_left(10)
+      @node12 = @node11.insert_right(12)
     end
 
     # start by finding the largest item
     it 'should find the LARGEST item' do
-      expect(@root.find_largest).to be @node12
+      expect(@root.find_largest).to be @node13
     end
 
     # start by finding the largest item
     it 'should find the SECOND largest item' do
-      expect(@root.find_second_largest).to be @nod11
+      expect(@root.find_second_largest).to be @node12
     end
 
   end
