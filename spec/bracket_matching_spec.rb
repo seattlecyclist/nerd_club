@@ -34,7 +34,7 @@ describe 'a bracket matcher can determine if a string has balanced brackets' do
 
   context 'when given a string with UN-balanced closed brackets' do
     before do
-      @matcher = BracketMatcher.new("({[]}) }")
+      @matcher = BracketMatcher.new("({[]})}")
     end
 
     it 'should indicate that the string is balanced?' do
