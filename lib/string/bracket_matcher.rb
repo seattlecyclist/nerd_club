@@ -1,5 +1,9 @@
 class BracketMatcher
 
+  # Supported bracket types:
+  # * parentheses or "round brackets" ( )
+  # * "square brackets" or "box brackets" [ ]
+  # * braces or "curly brackets" { }
   def initialize(str)
     @str = str
   end
