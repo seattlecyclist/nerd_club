@@ -17,6 +17,8 @@ class BracketMatcher
     @str.chars.each do |c|
       if OPEN.include? c
         stack.push c
+      elsif CLOSED.include?(c) && !stack.last
+        return false
       elsif CLOSED.include?(c) && is_closing_bracket?(stack.last, c)
         return false if stack.empty?
         stack.pop
@@ -30,7 +32,15 @@ class BracketMatcher
   # bracket: the opening for which to find the associated close
   # the position of the opening bracket 0 based index
   def find_closing(bracket, position)
-
+    stack = []
+    @str[position..-1].chars.each_with_index do |c, i|
+      if OPEN.include? c
+        stack.push c
+      elsif CLOSED.include?(c) && is_closing_bracket?(stack.last, c)
+        stack.pop
+        return position + i if stack.empty?
+      end
+    end
   end
 
   private
