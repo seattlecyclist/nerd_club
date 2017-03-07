@@ -16,5 +16,5 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * Optional: Tries aka Prefix Tree - Discussion.  I have seen these in several interview questions
 
 ### Block 2
-TBD
+* [Bracket Matching](bracket-matching.md)
 
