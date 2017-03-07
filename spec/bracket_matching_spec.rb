@@ -47,14 +47,18 @@ end
 # this references: https://www.interviewcake.com/question/ruby/matching-parens
 describe 'a bracket matcher can find a matching closing bracket' do
   context 'a balanced string' do
-    @matcher = BracketMatcher.new("({[()]})")
+    before do
+      @matcher = BracketMatcher.new("({[()]})")
+    end
+
+    it 'should find the last closing parenthesis' do
+      expect(@matcher.find_closing("(", 0)).to eq 7
+    end
+
+    it 'should find the middle closing parenthesis' do
+      expect(@matcher.find_closing("(", 3)).to eq 4
+    end
+
   end
 
-  it 'should find the last closing parenthesis' do
-    expect(@matcher.find_closing("(", 0)).to eq 7
-  end
-
-  it 'should find the middle closing parenthesis' do
-    expect(@matcher.find_closing("(", 3)).to eq 4
-  end
 end
