@@ -1,6 +1,7 @@
 # Nerd Club 
 ![nerd club](./nerd_club.jpg)
-Just a playground for myself and friends to play around programming
+Just a playground for myself and friends to play around programming.
+
 Join our [Slack Channel](http://seattlenerdclub.slack.com)
 
 ## Instructions
