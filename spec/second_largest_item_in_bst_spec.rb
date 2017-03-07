@@ -24,6 +24,12 @@ describe 'within a binary search tree' do
       expect(@root.find_largest).to be @node7
     end
 
+    it 'should find the and the parent should be 6' do
+      parents = []
+      @root.find_largest(@root, parents)
+      expect(parents.last).to be @node6
+    end
+
     # start by finding the largest item
     it 'should find the SECOND largest item' do
       expect(@root.find_second_largest).to be @node6
