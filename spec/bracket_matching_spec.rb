@@ -51,10 +51,10 @@ describe 'a bracket matcher can find a matching closing bracket' do
   end
 
   it 'should find the last closing parenthesis' do
-    expect(@mather.find_closing("(", 0)).to eq 7
+    expect(@matcher.find_closing("(", 0)).to eq 7
   end
 
   it 'should find the middle closing parenthesis' do
-    expect(@mather.find_closing("(", 3)).to eq 4
+    expect(@matcher.find_closing("(", 3)).to eq 4
   end
 end
