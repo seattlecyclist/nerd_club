@@ -1,7 +1,10 @@
-# Write a method match parens
-# References https://www.interviewcake.com/question/ruby/matching-parens?
+# Bracket Matching
+Write a method to determine if a string is balanced with 
+respect to the brackets within.
+
+Write a method to find an associated closing bracket.
 
 ## Instructions
-* Use [the BST node](./lib/bst/binary_tree_node.rb)
-* Get [the specs passing](./spec/second_largest_item_in_bst_spec.rb)
+* Use [the BracketMatcher](./lib/string/bracket_matcher.rb)
+* Get [the specs passing](./spec/bracket_matching_spec.rb)
     
