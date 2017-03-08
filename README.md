@@ -8,6 +8,9 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * Clone repo
 * Make branch for each challenge and submit Pull Request for each challenge
 
+# General References
+[System Design Primer](https://github.com/donnemartin/system-design-primer)
+
 ## Challenges
 ### Block 1
 * [Find the Second Largest Item in a BST](second-largest-item-in-bst.md)
