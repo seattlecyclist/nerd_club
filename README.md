@@ -19,4 +19,8 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * [Bracket Matching](bracket-matching.md)
 * [Palindrome Permutation](palindrome-permutation.md)
 * [Recursive Permutations of String](recursive-string-permutations.md)
+* [String Rotation](string-rotation.md)
 * Discussion: [String Compression](string-compression.md)
+
+### Block 3
+* [xxx] (ddddd.md)
