@@ -11,6 +11,6 @@ Input tring contains upper and lowercase.
 [References] Cracking The Coding Interview Question 1.6(pg91)
 
 ## Instructions
-* Use [the RecursiveStringPermutations](./lib/string/string_compression.rb)
+* Use [the StringCompression](./lib/string/string_compression.rb)
 * Get [the specs passing](./spec/string_compression_spec.rb)
     
