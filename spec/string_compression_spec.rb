@@ -15,7 +15,7 @@ describe 'compresses a string' do
     end
 
     it 'should compress right' do
-      expect(@compresser.compress('aAbccdddd')).to eq 'a1A1b3c2d4'
+      expect(@compresser.compress('aAbccdddd')).to eq 'a1A1b1c2d4'
     end
   end
 
