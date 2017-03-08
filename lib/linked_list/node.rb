@@ -24,4 +24,8 @@ class Node
     #implement
   end
 
+  def has_cycle?
+    # implement
+    false
+  end
 end

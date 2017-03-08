@@ -24,3 +24,4 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 
 ### Block 3
 * [Delete a Node from a Singly Linked List](delete-node.md)
+* [Singly Linked List contains Cycle](linked-list-cycle.md)
