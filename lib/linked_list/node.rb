@@ -21,7 +21,10 @@ class Node
   end
 
   def delete
-    #implement
+    return if @next == nil
+
+    @next.value = value
+    @next = @next.next
   end
 
 end
