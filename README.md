@@ -13,10 +13,10 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * [Find the Second Largest Item in a BST](second-largest-item-in-bst.md)
 * [Build a Balanced BST](build_balanced_bst.md)
 * [Reverse a String in Place](reverse-string-in-place.md)
-* Optional: Tries aka Prefix Tree - Discussion.  I have seen these in several interview questions
+* Discussion: Tries aka Prefix Tree - Discussion.  I have seen these in several interview questions
 
 ### Block 2
 * [Bracket Matching](bracket-matching.md)
 * [Palindrome Permutation](palindrome-permutation.md)
 * [Recursive Permutations of String](recursive-string-permutations.md)
-
+* Discussion: [String Compression](string-compression.md)
