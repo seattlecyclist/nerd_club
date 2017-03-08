@@ -1,10 +1,6 @@
 class RecursiveStringPermutation
 
-  def initialize(str)
-    @str = str
-  end
-
-  def permute
+  def permute(str)
     # implement
     []
   end
