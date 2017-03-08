@@ -5,7 +5,6 @@ class StringRotation
   end
 
   def is_rotation?(other)
-    # implement
-    false
+    "#{other}#{other}".include? @str
   end
 end
