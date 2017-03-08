@@ -23,4 +23,4 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * Discussion: [String Compression](string-compression.md)
 
 ### Block 3
-* [xxx] (ddddd.md)
+* [Delete a Node from a Singly Linked List](delete-node.md)
