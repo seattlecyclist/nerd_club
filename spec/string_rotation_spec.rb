@@ -23,8 +23,19 @@ describe 'two strings' do
       @rotator = StringRotation.new "seattle"
     end
 
-    it 'should report as a valid rotation' do
+    it 'should report as NOT a valid rotation' do
       expect(@rotator.is_rotation?("kettle")).to eq false
+    end
+  end
+
+  context 'when the two strings are empty' do
+
+    before do
+      @rotator = StringRotation.new ""
+    end
+
+    it 'should report as NOT a valid rotation' do
+      expect(@rotator.is_rotation?("")).to eq false
     end
   end
 
