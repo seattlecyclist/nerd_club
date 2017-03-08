@@ -1,4 +1,4 @@
-# Palindrome Permutation
+# Recursive String Permutation
 Write a method that recursively returns a list of 
 all the permutations of a string.
 
