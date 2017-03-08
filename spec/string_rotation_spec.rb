@@ -13,7 +13,7 @@ describe 'two strings' do
     end
 
     it 'should report as a valid rotation' do
-      expect(@rotator.is_rotation?("ttle")).to eq true
+      expect(@rotator.is_rotation?("ttlesea")).to eq true
     end
   end
 
