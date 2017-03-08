@@ -15,7 +15,7 @@ describe 'compresses a string' do
     end
 
     it 'should compress right' do
-      expect(@compresser.compress('aAbccdddd')).to eq 'a1A1b1c2d4'
+      expect(@compresser.compress('aAAAbccdddd')).to eq 'a1A3b1c2d4'
     end
   end
 
@@ -26,6 +26,10 @@ describe 'compresses a string' do
 
     it 'should return the original' do
       expect(@compresser.compress('abc')).to eq 'abc'
+    end
+
+    it 'should return the original' do
+      expect(@compresser.compress('abcc')).to eq 'abcc'
     end
 
   end
