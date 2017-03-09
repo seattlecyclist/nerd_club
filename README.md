@@ -10,6 +10,10 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 
 # General References
 [System Design Primer](https://github.com/donnemartin/system-design-primer)
+[Big O Notation Cheat Sheet](http://bigocheatsheet.com/)
+
+# Interview 
+
 
 ## Challenges
 ### Block 1
