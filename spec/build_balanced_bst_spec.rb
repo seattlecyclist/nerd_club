@@ -9,9 +9,9 @@ describe 'with a sorted array build a balanced BST' do
     #
     #         5
     #        /  \
-    #       3    7
-    #      / \  / \ 
-    #     1  2 6   8
+    #       2    7
+    #      / \  / \
+    #     1  3 6   8
     #
     #
     #
