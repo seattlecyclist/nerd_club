@@ -5,6 +5,16 @@ require './lib/bst/binary_tree_node'
 #
 describe 'with a sorted array build a balanced BST' do
   before do
+    #
+    #
+    #         5
+    #        /  \
+    #       3    7
+    #      / \  / \ 
+    #     1  2 6   8
+    #
+    #
+    #
     @array = [1, 2, 3, 5, 6, 7, 8]
     @root_node = BinaryTreeNode.build_tree(@array)
   end
