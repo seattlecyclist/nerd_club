@@ -27,6 +27,7 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * [Palindrome Permutation](palindrome-permutation.md)
 * [Recursive Permutations of String](recursive-string-permutations.md)
 * [String Rotation](string-rotation.md)
+* [Lock Combinations](lock-combinations.md)
 * Discussion: [String Compression](string-compression.md)
 
 ### Block 3

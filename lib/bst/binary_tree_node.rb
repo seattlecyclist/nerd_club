@@ -22,11 +22,11 @@ class BinaryTreeNode
     @right = BinaryTreeNode.new(value)
   end
 
-  def find_second_largest(node = self)
+  def find_second_largest
     #implement
   end
 
-  def find_largest(node = self)
+  def find_largest
     #implement
   end
 end
