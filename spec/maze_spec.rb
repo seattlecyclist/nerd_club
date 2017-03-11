@@ -13,7 +13,7 @@ describe Maze do
                     ])}
 
   it 'should find a path out' do
-    expect(subject.solve).to eq [ [0, 1], [1, 1], [2, 1], [3, 1],[3, 2],[3, 3],[4, 3] ]
+    expect(subject.solve).to eq [ [0, 1], [1, 1], [1, 2], [1, 3], [2, 3], [3, 3], [3, 4] ]
   end
 end
 
