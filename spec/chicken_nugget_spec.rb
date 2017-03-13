@@ -12,7 +12,6 @@ describe Pack do
       expect(subject.buy?(20)).to be false
     end
 
-
     it 'should be able to buy 21' do
       expect(subject.buy?(21)).to be true
     end
