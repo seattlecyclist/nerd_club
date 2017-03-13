@@ -3,7 +3,7 @@ require './lib/chicken_nugget/pack'
 
 describe Pack do
   context 'buy?' do
-    subject { Pack.new([3, 6, 9]) }
+    subject { Pack.new([6, 9, 20]) }
 
     before do
     end
