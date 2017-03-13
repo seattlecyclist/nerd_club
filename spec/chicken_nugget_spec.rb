@@ -14,11 +14,11 @@ describe Pack do
 
 
     it 'should be able to buy 21' do
-      expect(subject.buy?(21)).to be false
+      expect(subject.buy?(21)).to be true
     end
 
     it 'should be able to buy 12' do
-      expect(subject.buy?(12)).to be false
+      expect(subject.buy?(12)).to be true
     end
 
   end
