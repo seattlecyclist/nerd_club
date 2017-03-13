@@ -8,8 +8,12 @@ describe Pack do
     before do
     end
 
-    it 'should not be able to buy 20' do
-      expect(subject.buy?(20)).to be false
+    it 'should not be able to buy 17' do
+      expect(subject.buy?(17)).to be false
+    end
+
+    it 'should be able to buy 24' do
+      expect(subject.buy?(24)).to be true
     end
 
     it 'should be able to buy 21' do
