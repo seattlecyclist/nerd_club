@@ -23,6 +23,6 @@ describe 'cracking a locks combinations' do
                  "1024", "1025", "1026", "1027", "1028", "1029", "1203", "1204", "1205", "1206",
                  "1207", "1208", "1209", "1230"]
 
-    expect(@lock.combinations).to all_valid
+    expect(@lock.combinations).to match_array(all_valid)
   end
 end
