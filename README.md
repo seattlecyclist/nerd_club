@@ -37,3 +37,6 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * [Implement a Trie (prefix Tree)](trie.md)
 * [Cake Thief](cake-thief.md)
 * [Chicken Nugget](chicken-nugget.md)
+
+### Block 4
+* [Characters to Valid Words](chars-to-words.md)
