@@ -38,3 +38,7 @@ describe 'baby names' do
 
 end
 
+
+def count(name)
+  0
+end
