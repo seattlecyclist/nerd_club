@@ -9,9 +9,9 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * Make branch for each challenge and submit Pull Request for each challenge
 
 # General References
-[System Design Primer](https://github.com/donnemartin/system-design-primer)
-[Big O Notation Cheat Sheet](http://bigocheatsheet.com/)
-
+* [System Design Primer](https://github.com/donnemartin/system-design-primer)
+* [Big O Notation Cheat Sheet](http://bigocheatsheet.com/)
+* [Stanford  Problem-Solving for the CS Technical Interview](https://web.stanford.edu/class/cs9/)
 # Interview 
 
 
