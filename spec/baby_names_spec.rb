@@ -33,12 +33,26 @@ describe 'baby names' do
   end
 
   it 'should mike' do
-    expect(count(:john)).to eq 9
+    expect(count(:mike)).to eq 9
   end
 
+  def count(name)
+    sum = 0
+    names = []
+    names << name
+    while !names.empty?
+      name = names.pop
+      sum += @names[name]
+      names.concat(translation(name))
+    end
+
+    sum
+  end
+
+  def translation(name)
+    return nil if name.nil?
+    @translations.find_all {|n| n.first == name}.map{|x| x.last}
+  end
 end
 
 
-def count(name)
-  0
-end
