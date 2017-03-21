@@ -44,3 +44,4 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 
 ### Block 4
 * [Characters to Valid Words](chars-to-words.md)
+* [Dutch Flag](dutch-flag.md)
