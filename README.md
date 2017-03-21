@@ -12,6 +12,10 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * [System Design Primer](https://github.com/donnemartin/system-design-primer)
 * [Big O Notation Cheat Sheet](http://bigocheatsheet.com/)
 * [Stanford  Problem-Solving for the CS Technical Interview](https://web.stanford.edu/class/cs9/)
+* [Interview Prep](https://github.com/kdn251/interviews/blob/master/README.md)
+* https://github.com/donnemartin/system-design-primer
+
+
 # Interview 
 
 
