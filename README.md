@@ -14,6 +14,7 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * [Stanford  Problem-Solving for the CS Technical Interview](https://web.stanford.edu/class/cs9/)
 * [Interview Prep](https://github.com/kdn251/interviews/blob/master/README.md)
 * https://github.com/donnemartin/system-design-primer
+* [interactive coding challenges] (https://github.com/donnemartin/interactive-coding-challenges)
 
 
 # Interview 
@@ -46,3 +47,4 @@ Join our [Slack Channel](http://seattlenerdclub.slack.com)
 * [Characters to Valid Words](chars-to-words.md)
 * [Dutch Flag](dutch-flag.md)
 * [Tic-Tac-Toe](tic-tac-toe.md)
+* [1024-game](1024-gae.md)
