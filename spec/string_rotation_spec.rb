@@ -17,7 +17,7 @@ describe 'two strings' do
     end
   end
 
-  context 'when the two strings are not valid rotations' do
+  context 'when the words are totally different' do
 
     before do
       @rotator = StringRotation.new "seattle"
@@ -25,6 +25,17 @@ describe 'two strings' do
 
     it 'should report as NOT a valid rotation' do
       expect(@rotator.is_rotation?("kettle")).to eq false
+    end
+  end
+
+  context 'when the words are have the same letter but are not rotations' do
+
+    before do
+      @rotator = StringRotation.new "seattle"
+    end
+
+    it 'should report as NOT a valid rotation' do
+      expect(@rotator.is_rotation?("saettle")).to eq false
     end
   end
 
