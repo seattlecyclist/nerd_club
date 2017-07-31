@@ -16,4 +16,10 @@ end
 
 def reverse(word)
   #implement
+  (word.length/2).times do |i|
+    letter = word[i]
+    word[i], word[(i*-1)-1] = word[(i*-1)-1], word[i]
+  end
+
+  return word
 end
